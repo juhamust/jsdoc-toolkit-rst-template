@@ -2,19 +2,22 @@
 jsdoc-toolkit-rst-template
 ==========================
 
+.. contents::
+   :local:
+
 Installation
 ============
 Suggested installation steps (unless you already have some of the apps/modules installed)
 
 #.  **Install Java and Ant**:
 
-    - Download Java and extract it for example to /opt/java/
-    - Download Ant and extract it for example to /opt/apache-ant/
+    - Download Java and extract it for example to ``/opt/java/`` 
+    - Download Ant and extract it for example to ``/opt/apache-ant/`` 
 
 #.  **Install JsDoc Toolkit**:
 
     - Download release: http://jsdoc-toolkit.googlecode.com/files/jsdoc_toolkit-2.4.0.zip
-    - Extract package for example to: /opt/jsdoc-toolkit/
+    - Extract package for example to ``/opt/jsdoc-toolkit/``
 
 #.  **Setup JsDoc Toolkit RST Template (this project)**:
 
@@ -95,3 +98,21 @@ Now, both generated and manually written documentation can be used together.
 
 The application is implemented in class :js:class:`App`.
 To see the complete API, see :ref:`separate API document <api>`
+
+Contribution
+============
+Your contribution to the project is very welcome! Here are some instructions how to get started
+with the development environment:
+
+**Documentation**
+  #.  Install python
+  #.  Install ruby and related modules (needed only previewing README.rst outcome)
+
+        # install ruby
+        gem install bundler
+        bundle install
+
+  #.  Build README.rst (into README.html)
+
+        ./build.rb
+

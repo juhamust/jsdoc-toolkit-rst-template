@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    github-markup (1.2.1)
+      posix-spawn (~> 0.3.8)
+    posix-spawn (0.3.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  github-markup
