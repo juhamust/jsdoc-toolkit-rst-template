@@ -2,9 +2,6 @@
 jsdoc-toolkit-rst-template
 ==========================
 
-.. contents::
-   :local:
-
 Installation
 ============
 Suggested installation steps (unless you already have some of the apps/modules installed)
@@ -49,7 +46,7 @@ Suggested installation steps (unless you already have some of the apps/modules i
 
     - See the outcode directory defined by js.rst.dir
 
-    .. NOTE::
+    .. NOTE:: 
 
         This document only describes how to generate RST-files from JavaScript -sources. Please follow the Sphinx -official documentation for how to write and configure documentation.
 
