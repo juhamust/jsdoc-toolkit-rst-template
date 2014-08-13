@@ -1,6 +1,15 @@
 ==========================
 jsdoc-toolkit-rst-template
 ==========================
+Project provides a RST (ReStructuredText) compliant templates for JsDoc-Toolkit documentation generator, 
+making it easy to document JavaScript project with Sphinx.
+
+With the custom rst -template, it is possible to generate rst-document pages using jsdoc-toolkit. From there, 
+the generated pages can be included as part of documentation, similar to Sphinx autogen feature. 
+
+.. image:: https://raw.githubusercontent.com/juhamust/jsdoc-toolkit-rst-template/develop/doc/process.png
+
+**Table of contents**
 
 .. contents::
    :local:
