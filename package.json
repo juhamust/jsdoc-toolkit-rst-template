@@ -1,0 +1,41 @@
+{
+  "name": "jsdoc-toolkit-rst-template",
+  "version": "0.1.0",
+  "description": "ReStructuredText template for JavaScript API documentation toolkit",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juhamust/jsdoc-toolkit-rst-template.git"
+  },
+  "keywords": [
+    "rst",
+    "sphinx",
+    "doc"
+  ],
+  "author": "Juha Mustonen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhamust/jsdoc-toolkit-rst-template/issues"
+  },
+  "homepage": "https://github.com/juhamust/jsdoc-toolkit-rst-template",
+  "dependencies": {
+    "jsdoc": "^3.2.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.3.7",
+    "gulp": "^3.8.8",
+    "gulp-exec": "^2.1.0",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-serve": "^0.2.0",
+    "gulp-util": "^3.0.1",
+    "run-sequence": "^0.3.7"
+  }
+}
